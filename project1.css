@@ -1,0 +1,346 @@
+body{
+    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
+    height: 100%;
+    width: 99.4%;
+}
+header{
+    height:20%;
+    /* line-height:5; */
+    width: 100%;
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 40px;
+    padding-top:20px;
+    color: rgb(255, 255, 255);
+
+}
+
+footer{
+    /* border:2px solid black; */
+    margin-top:10%;
+    /* margin-left: -10px; */
+    /* margin-right: -240px; */
+    margin-bottom:-5px;
+
+    height: 90px;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* color: white; */
+    color: rgb(255, 255, 255);
+}
+
+.hello{
+    margin-top:10%;
+    margin-left:5%;
+    margin-bottom:-2%;
+    font-size:18px;
+    color: cornflowerblue;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.data{
+    /* border: 5px solid black; */
+    margin-left:6%;
+    font-size:25px;
+    color: cornflowerblue;
+}
+.data span{
+    
+    color: white;
+}
+.vline{
+    
+    font-size: 90px;
+    margin-top:20px;
+    margin-left: 10px;
+    color: white;
+    /* color: cornflowerblue; */
+
+}
+
+
+.field{
+    /* border: 5px solid black; */
+    margin-left:7%;
+    margin-top:-2%;
+    font-size:25px;
+    color: cornflowerblue;
+}
+.cont-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.brief{
+    width:55%;
+    /* border: 5px solid black; */
+    margin-left:6%;
+    margin-top:3%;
+    font-size:18px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    
+}
+
+.skilla{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    margin-top:9%;
+}
+
+.skillb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 15%;
+}
+.s1{
+    color:rgb(255, 255, 255);
+    padding:20px;
+    /* background: rgb(53, 48, 48); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:center;
+    backdrop-filter: blur(50%);
+    -webkit-backdrop-filter: blur(50%);
+
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow:0 0 5px cornflowerblue,
+               0 0 10px cornflowerblue,
+               0 0 20px cornflowerblue,
+         inset 0 0 5px rgb(255, 255, 255);
+
+                transition: 0.4s ease-in-out;
+
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;
+}
+.s1 strong{
+    color: cornflowerblue;
+}
+
+.s2{
+    padding:20px;
+    color:white;
+    background: rgb(53, 48, 48);
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;  
+    
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow: 0 0 5px cornflowerblue,
+                0 0 10px cornflowerblue,
+                0 0 20px cornflowerblue,
+                inset 0 0 5px rgb(255, 255, 255);
+
+     transition: 0.4s ease-in-out;
+
+}
+.s2 strong{
+    color: cornflowerblue;
+}
+.s3{
+    padding:20px;
+    color:white;
+    background: rgb(53, 48, 48);
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;
+    
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow: 0 0 5px cornflowerblue,
+                0 0 10px cornflowerblue,
+                0 0 20px cornflowerblue,
+                inset 0 0 5px rgb(255, 255, 255);
+
+     transition: 0.4s ease-in-out;
+
+}
+.s3 strong{
+    color: cornflowerblue;
+}
+
+/* |
+|
+|
+|
+|
+|
+| */
+
+
+.s4{
+    color:white;
+    background: rgb(53, 48, 48);
+    padding:20px;
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;
+    
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow: 0 0 5px cornflowerblue,
+                0 0 10px cornflowerblue,
+                0 0 20px cornflowerblue,
+                inset 0 0 5px rgb(255, 255, 255);
+
+     transition: 0.4s ease-in-out;
+
+}
+.s4 strong{
+    color: cornflowerblue;
+}
+.s5{
+    color:white;
+    background: rgb(53, 48, 48);
+    padding:20px;
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;
+    
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow: 0 0 5px cornflowerblue,
+                0 0 10px cornflowerblue,
+                0 0 20px cornflowerblue,
+                inset 0 0 5px rgb(255, 255, 255);
+
+     transition: 0.4s ease-in-out;
+
+
+}
+.s5 strong{
+    color: cornflowerblue;
+}
+.s6{
+    color:white;
+    background: rgb(53, 48, 48);
+    padding:20px;
+    border-radius: 5%;
+    line-height: 30px;
+    margin-bottom:3%;
+    background: rgba(53, 48, 48, 0.369);
+    box-shadow: 0 0 5px cornflowerblue,
+                0 0 10px cornflowerblue,
+                0 0 20px cornflowerblue,
+                inset 0 0 5px rgb(255, 255, 255);
+
+     transition: 0.4s ease-in-out;
+
+}.s6 strong{
+    color: cornflowerblue;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    margin-top:10%;
+    
+    
+}
+.contact a{
+    text-decoration: none;
+    color: cornflowerblue;
+    transition: 0.3s ease-in-out;
+
+}
+.contact a:hover{
+      
+    outline: black;
+
+        transition: 0.3s ease-in-out;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: max-content;
+    height:30px;
+    color: cornflowerblue;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: max-content;
+    height:30px;
+    color: cornflowerblue;
+
+
+}
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: max-content;
+    height:30px;
+    color: cornflowerblue;
+
+}
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: max-content;
+    height:30px;
+    color: cornflowerblue;
+
+}
+
+
+
+
+                                        /* HOVER EFFECTS TO ADDED IN THE CARDS { GLOW EFFECT | } */
+
+
+
+
+
